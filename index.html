@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<meta charset="utf-8 />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo"> 
+				<img src="asset/icon/partner.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title">Dzaki X</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#ABOUT">ABOUT</a></li>
+					<li><a href="mailto:dzakiraffa07@gmail.com">CONTACT</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">FOLLOW ME</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Dzaki Raffa Here!</p>
+				<p class="description">Student From Jakarta</p>
+				<img src="asset/icon2/dzakiraffa2.jpg" alt="dzakiraffa2" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax"> 
+			<div class="tentang">
+				<p class="title">i'm a programmer</p>
+				<p class="description">LET'S GO</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">LET'S COLLABORATE</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="ABOUT">
+					<div class="card-item">
+						<img src="asset/icon/24-hours.png" alt="icon 1" class="icon"/> 
+						<p class="card-title">Hanging out with friends</p>
+						<p class="card-description">Hanging out is the best way to look for ideas and inspiration</p>
+					</div>
+					<div class="card-item">
+						<img src="asset/icon/hot-deal.png" alt="icon 2" class="icon"/> 
+						<p class="card-title">I'm a new programmer</p>
+						<p class="card-description">I just started learning a year ago because I like computers</p>
+					</div>
+					<div class="card-item">
+						<img src="asset/icon/rating.png" alt="icon 3" class="icon"/> 
+						<p class="card-title">I am qualified</p>
+						<p class="card-description">Even though I'm just learning, I'm quick to respond</p>
+						</div>
+				</div>	
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Muhammad Dzaki Raffa Website 2024</p>
+		</footer>
+		
+		<script>
+			function redirInstagram () {
+				window.location.href = "https://instagram.com?dzakiiraffa"
+			}
+			
+			function redirWhatsapp () {
+				window.location.href = "https://wa.me/+6281808151558"
+			}
+			
+		</script>
+	</body>
+</html>
